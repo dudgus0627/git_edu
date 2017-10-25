@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>ë¡œë˜ ë²ˆí˜¸ ìƒì„±ê¸°</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.83">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 9.0px; font: 8.0px Courier; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none; background-color: #d9d9d9}
+    span.s2 {font-kerning: none}
+    span.s3 {font: 8.0px AppleMyungjo; font-kerning: none; background-color: #d9d9d9}
+    span.s4 {font: 8.0px Times; font-kerning: none; background-color: #d9d9d9}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span><span class="s2"><br>
+</span><span class="s1">&lt;!-- </span><span class="s3">간단</span><span class="s4"> </span><span class="s3">로또</span><span class="s4"> </span><span class="s3">번호</span><span class="s4"> </span><span class="s3">생성기</span><span class="s4"> </span><span class="s1">17. 10. 25 --&gt; &lt;html&gt;</span><span class="s2"><br>
+</span><span class="s1">&lt;head&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;title&gt;</span><span class="s3">로또</span><span class="s4"> </span><span class="s3">번호</span><span class="s4"> </span><span class="s3">생성기</span><span class="s1">&lt;/title&gt; &lt;script&gt;</span><span class="s2"><br>
+</span><span class="s1">function generate() {<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">var numbers = [];<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">for(var i=0; i&lt;6; i++) { numbers.push(Math.floor(Math.random() * 45));<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">return numbers; }<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;/script&gt; &lt;/head&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span><span class="s2"><br>
+</span><span class="s1">&lt;input id="inputGenerated"&gt;</span><span class="s2"><br>
+</span><span class="s1">&lt;button id="btnGenerate"&gt;</span><span class="s3">번호</span><span class="s4"> </span><span class="s3">생성</span><span class="s1">&lt;/button&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;script&gt; (function() {<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">document.getElementById('btnGenerate').onclick = function() {</span><span class="s2"><br>
+</span><span class="s1">var numbers = generate(); document.getElementById('inputGenerated').value = numbers.join(', ');<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">} })();<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;!-- </span><span class="s3">스크립트</span><span class="s4"> </span><span class="s3">끝</span><span class="s4"> </span><span class="s1">--&gt; &lt;/body&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
